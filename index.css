@@ -296,3 +296,8 @@ footer {
   color: #ccc; /* Lighter color on hover */
 }
 
+@media (max-width: 768px) {
+  .contact-section .content {
+      flex-direction: column;
+  }
+}
