@@ -18,6 +18,26 @@
     color: #fff;
     padding: 1.5rem;
   }
+  
+  /* nav bar for mobile respons */
+  
+  .mobile-menu {
+    display: none;
+}
+
+.mobile-menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+    .mobile-menu-toggle {
+        display: block;
+    }
+}
  
   
   nav ul {
